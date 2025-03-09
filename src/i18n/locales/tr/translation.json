@@ -1,0 +1,159 @@
+{
+  "menu": {
+    "title": "JavaScript Veri Tipleri Oyunu",
+    "lastScore": "Son Skor",
+    "highScore": "En Yüksek",
+    "keyCommands": "Tuş Komutları",
+    "startGame": "OYUNA BAŞLA",
+    "keyboardInfo": "Klavye Tuşları ve Butonlar Kullanılabilir",
+    "gameInfo": "Yukarıdan düşen veri tiplerini doğru tuşa basarak yakala!\nHer seviyede yeni tipler eklenir ve oyun hızlanır."
+  },
+  "game": {
+    "score": "Skor",
+    "lives": "Can",
+    "level": "Seviye",
+    "target": "Hedef",
+    "bonus": "BONUS",
+    "missed": "Kaçırdın!",
+    "wrong": "Yanlış! Bu bir {{type}} türü. {{key}} tuşu kullanmalıydın!",
+    "levelComplete": "SEVİYE {{level}} TAMAMLANDI!",
+    "yourScore": "Skorunuz",
+    "nextLevel": "Seviye {{level}} başlıyor..."
+  },
+  "gameOver": {
+    "gameOver": "OYUN BİTTİ",
+    "congratulations": "TEBRİKLER!",
+    "completed": "Tüm seviyeleri tamamladınız!",
+    "finalScore": "Final Skorunuz",
+    "level": "Seviye",
+    "newHighScore": "YENİ REKOR!",
+    "playAgain": "TEKRAR OYNA",
+    "mainMenu": "ANA MENÜ",
+    "previousScore": "Önceki Skorunuz",
+    "highScore": "En Yüksek Skor",
+    "reachedLevel": "Ulaşılan Seviye",
+    "excellent": "Harika! JavaScript veri türlerinde ustalaşıyorsun!",
+    "good": "İyi iş! Temel veri türlerini iyi biliyorsun.",
+    "needPractice": "Biraz daha pratik yapmalısın. Tekrar dene!"
+  },
+  "dataTypes": {
+    "number": "Number",
+    "string": "String",
+    "boolean": "Boolean",
+    "float": "Float",
+    "object": "Object",
+    "null": "Null",
+    "undefined": "Undefined"
+  },
+  "language": {
+    "tr": "Türkçe",
+    "en": "İngilizce"
+  },
+  "homepage": {
+    "title": "JavaScript Oyunları",
+    "subtitle": "JavaScript'i Oyun Oynayarak Öğrenin",
+    "typeDefenderDesc": "JavaScript veri tiplerini öğreten eğlenceli oyun",
+    "variableMasterDesc": "JavaScript değişken türlerini ve scope kurallarını öğreten interaktif oyun",
+    "play": "OYNA",
+    "aboutGames": "Oyunlar Hakkında",
+    "aboutDesc": "JavaScript öğrenme sürecinizi eğlenceli hale getiren interaktif oyunlarımızla programlama becerilerinizi geliştirin.",
+    "typeDefenderLongDesc": "JavaScript'teki temel veri türlerini öğreten interaktif bir oyun. Ekrandan düşen veri türlerini doğru tuşlara basarak yakalayın!",
+    "variableMasterLongDesc": "JavaScript'teki değişken türlerini (const, let, var) ve scope kurallarını öğreten eğitici bir oyun. Değişkenlerin davranışlarını interaktif bir şekilde öğrenin.",
+    "keyCommands": "Tuş Komutları",
+    "difficultyLevels": "Zorluk Seviyeleri",
+    "easy": "Kolay",
+    "easyDesc": "Sadece number, string ve boolean türleri",
+    "medium": "Orta",
+    "mediumDesc": "Kolay seviyeye ek olarak float, null ve undefined türleri",
+    "hard": "Zor",
+    "hardDesc": "Tüm veri türleri ve daha hızlı oyun temposu",
+    "footer": "JavaScript Öğrenme Araçları - © 2023"
+  },
+  "variableMaster": {
+    "title": "VARIABLE MASTER",
+    "subtitle": "JavaScript Değişken Türlerini Öğreten Oyun",
+    "selectLevel": "Seviye Seçin",
+    "startGame": "OYUNA BAŞLA",
+    "backToHome": "ANA SAYFAYA DÖN",
+    "continue": "DEVAM ET",
+    "score": "Puan",
+    "back": "GERİ",
+    "check": "KONTROL ET",
+    "nextLevel": "SONRAKİ SEVİYE",
+    "finish": "BİTİR",
+    "levelCompleted": "Seviye Tamamlandı!",
+    "congratulations": "Tebrikler!",
+    "completedLevel": "Tebrikler! {{levelName}} seviyesini başarıyla tamamladınız.",
+    "earnedPoints": "Kazanılan Puan: +{{points}}",
+    "totalPoints": "Toplam Puan: {{score}}",
+    "stageCompleted": "Aşama Tamamlandı!",
+    "levels": {
+      "1": {
+        "name": "Değişken Tanımlama",
+        "description": "Değerleri doğru değişken türlerine sürükleyin.",
+        "instructions": "CONST: Değiştirilemez değişkenler. Mutlaka tanımlanırken değer verilmeli.\nLET: Blok kapsamlı değişken. Daha sonra değiştirilebilir. Boş tanımlanabilir.\nVAR: Fonksiyon kapsamlı değişken. Her yerden erişilebilir. Boş tanımlanabilir."
+      },
+      "2": {
+        "name": "Değişken Değiştirme",
+        "description": "Değişkenleri değiştirmeye çalışın.",
+        "instructions": "DEĞİŞKEN DEĞİŞTİRME:\n\nCONST: Tanımlandıktan sonra değiştirilemez\nLET: Tanımlandıktan sonra değeri değiştirilebilir\nVAR: Tanımlandıktan sonra değeri değiştirilebilir\n\nGörev: Değişkenleri sıraya dizin ve değerlerini değiştirmeyi deneyin!"
+      },
+      "3": {
+        "name": "Scope Kuleleri",
+        "description": "Değişkenleri erişilebildikleri alanlara yerleştirin.",
+        "instructions": "SCOPE KURALLARI:\n\nVAR: Yeşil (Global) Alanda tanımlanır ve HER ALANDA (Yeşil, Mavi, Kırmızı) erişilebilir.\nGörev: VAR'ı TÜM ALANLARA yerleştirin (Yeşil, Mavi ve Kırmızı).\n\nLET: Mavi (Function) Alanda tanımlanır ve KENDİ ALANI ve ALT ALANLARDA (Mavi ve Kırmızı) erişilebilir.\nGörev: LET'i Mavi ve Kırmızı alanlara yerleştirin.\n\nCONST: Kırmızı (Block) Alanda tanımlanır ve SADECE KENDİ ALANINDA (Kırmızı) erişilebilir.\nGörev: CONST'u sadece Kırmızı alana yerleştirin.\n\nNot: Değişkenleri tanımlandıkları alanlara değil, ERİŞİLEBİLDİKLERİ alanlara yerleştirin!\n\nÖNEMLİ: Aynı değişkenleri birden fazla kez kullanabilirsiniz. Örneğin, VAR değişkenini Yeşil, Mavi ve Kırmızı alanlara ayrı ayrı sürükleyebilirsiniz. Değişkenler tükenmez, istediğiniz kadar kullanabilirsiniz!"
+      }
+    },
+    "dragHints": {
+      "level1": "Değerleri sürükleyerek ilgili değişken kutularına yerleştirebilirsiniz.\nCONST boş bırakılamaz, LET ve VAR boş bırakılabilir.",
+      "level2": "Kutuları sırlamak için \"↔\" ikonundan tutarak sürükleyin ve değerleri DEĞİŞTİR butonu ile düzenleyin.",
+      "level3": "Değişkenleri uygun scope alanlarına yerleştirin.\nHer değişken, erişilebildiği tüm alanlara yerleştirilmelidir.\nAynı değişkeni birden fazla kez kullanabilirsiniz - değişkenler tükenmez!"
+    },
+    "levelInfo": {
+      "level2": "Değişkenleri sıraya dizin ve değerlerini hedef değerlere göre değiştirin. CONST değiştirilemez, LET ve VAR değiştirilebilir.",
+      "targetOrder": "Hedef Değer Sıralaması: {{order}}",
+      "targetValues": "Hedef Değerler: CONST={{constVal}}, LET={{letVal}}, VAR={{varVal}}"
+    },
+    "scopeInfo": {
+      "normal": "VAR her alana sürüklenmelidir (her alandan erişilebilir). LET hem Mavi hem de Kırmızı alana sürüklenmelidir (mavi ve kırmızı alandan erişilebilir). CONST sadece Kırmızı alana sürüklenmelidir (sadece kırmızı alandan erişilebilir). Aynı değişkenler birden fazla kez kullanılabilir!",
+      "reversed": "İkinci Aşama: VAR yine her alana sürüklenmelidir (her alandan erişilebilir). CONST her alana sürüklenmelidir (her alandan erişilebilir). LET hem Mavi hem de Kırmızı alana sürüklenmelidir (mavi ve kırmızı alandan erişilebilir). Aynı değişkenler birden fazla kez kullanılabilir!"
+    },
+    "scopeAreas": {
+      "green": "Yeşil Alan",
+      "blue": "Mavi Alan",
+      "red": "Kırmızı Alan"
+    },
+    "variables": {
+      "newValue": "Yeni Değer:",
+      "change": "DEĞİŞTİR"
+    },
+    "messages": {
+      "constEmpty": "Hata! CONST boş olamaz, bir değer atanmalı. -5 puan",
+      "levelComplete": "Harika! Seviye tamamlandı! +{{points}} puan",
+      "constChanged": "TypeError: Assignment to constant variable",
+      "varChanged": "{{type}} değeri doğru değiştirildi! +10 puan",
+      "varChangedWrong": "{{type}} değiştirildi! +2 puan",
+      "valueError": "Değer 1-9 arası bir sayı olmalıdır",
+      "constError": "CONST sadece Kırmızı Alanda görüntülenebilir!",
+      "letError": "LET Yeşil Alanda görüntülenemez! Sadece Mavi ve Kırmızı Alanda görüntülenebilir.",
+      "letErrorReversed": "Bu düzende LET Yeşil Alanda görüntülenemez! Sadece Mavi ve Kırmızı Alanda görüntülenebilir.",
+      "varPlaced": "{{type}} değişkeni {{scope}} alanda görüntüleniyor! +5 puan",
+      "secondStage": "Şimdi tekrar deneyelim! Bu kez VAR her alana, CONST her alana, LET hem Mavi hem de Kırmızı alana yerleştirilmelidir.",
+      "secondStageNote": "Not: Değişkenleri ERİŞİLEBİLDİKLERİ alanlara yerleştirin!",
+      "varError": "VAR (5) tüm alanlarda görüntülenmelidir! (Yeşil, Mavi ve Kırmızı)",
+      "letErrorScope": "LET (3) hem Mavi hem de Kırmızı Alanda görüntülenmelidir!",
+      "constErrorScope": "CONST (1) Kırmızı Alanda görüntülenmelidir!",
+      "constErrorScopeReversed": "CONST (1) tüm alanlarda görüntülenmelidir! (Yeşil, Mavi ve Kırmızı)",
+      "valuesError": "Bazı değişkenlerin değerleri hedef değerlere ulaşmamış. Değerleri doğru ayarlayın.",
+      "orderError": "Doğru sıralamayı oluşturmadınız. Hedef: {{order}}"
+    },
+    "scopeSummary": {
+      "title": "JavaScript Scope Kuralları Özeti:",
+      "var": "VAR: Fonksiyon kapsamlıdır. Tanımlandığı fonksiyon içinde her yerden erişilebilir.",
+      "let": "LET: Blok kapsamlıdır. Sadece tanımlandığı blok ve alt bloklarda erişilebilir.",
+      "const": "CONST: Blok kapsamlıdır (LET gibi) ve değeri değiştirilemez.",
+      "note": "Not: Bir değişken tanımlandığı yerden tüm erişilebilir alanlarda kullanılabilir. Örneğin, dış blokta tanımlanan bir değişken, iç bloklarda da kullanılabilir.",
+      "exampleTitle": "JavaScript Scope Örneği (Normal Düzen):"
+    }
+  }
+} 

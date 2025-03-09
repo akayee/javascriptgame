@@ -1,0 +1,159 @@
+{
+  "menu": {
+    "title": "JavaScript Data Types Game",
+    "lastScore": "Last Score",
+    "highScore": "High Score",
+    "keyCommands": "Key Commands",
+    "startGame": "START GAME",
+    "keyboardInfo": "Keyboard Keys and Buttons Available",
+    "gameInfo": "Catch the falling data types by pressing the correct key!\nEach level adds new types and increases speed."
+  },
+  "game": {
+    "score": "Score",
+    "lives": "Lives",
+    "level": "Level",
+    "target": "Target",
+    "bonus": "BONUS",
+    "missed": "Missed!",
+    "wrong": "Wrong! This is a {{type}} type. You should have used the {{key}} key!",
+    "levelComplete": "LEVEL {{level}} COMPLETED!",
+    "yourScore": "Your Score",
+    "nextLevel": "Level {{level}} starting..."
+  },
+  "gameOver": {
+    "gameOver": "GAME OVER",
+    "congratulations": "CONGRATULATIONS!",
+    "completed": "You completed all levels!",
+    "finalScore": "Your Final Score",
+    "level": "Level",
+    "newHighScore": "NEW HIGH SCORE!",
+    "playAgain": "PLAY AGAIN",
+    "mainMenu": "MAIN MENU",
+    "previousScore": "Previous Score",
+    "highScore": "High Score",
+    "reachedLevel": "Reached Level",
+    "excellent": "Excellent! You're mastering JavaScript data types!",
+    "good": "Good job! You know the basic data types well.",
+    "needPractice": "You need more practice. Try again!"
+  },
+  "dataTypes": {
+    "number": "Number",
+    "string": "String",
+    "boolean": "Boolean",
+    "float": "Float",
+    "object": "Object",
+    "null": "Null",
+    "undefined": "Undefined"
+  },
+  "language": {
+    "tr": "Turkish",
+    "en": "English"
+  },
+  "homepage": {
+    "title": "JavaScript Games",
+    "subtitle": "Learn JavaScript by Playing Games",
+    "typeDefenderDesc": "Fun game teaching JavaScript data types",
+    "variableMasterDesc": "Interactive game teaching JavaScript variable types and scope rules",
+    "play": "PLAY",
+    "aboutGames": "About Games",
+    "aboutDesc": "Improve your programming skills with our interactive games that make learning JavaScript fun.",
+    "typeDefenderLongDesc": "An interactive game that teaches the basic data types in JavaScript. Catch the falling data types by pressing the correct keys!",
+    "variableMasterLongDesc": "An educational game that teaches JavaScript variable types (const, let, var) and scope rules. Learn variable behaviors in an interactive way.",
+    "keyCommands": "Key Commands",
+    "difficultyLevels": "Difficulty Levels",
+    "easy": "Easy",
+    "easyDesc": "Only number, string and boolean types",
+    "medium": "Medium",
+    "mediumDesc": "Easy level plus float, null and undefined types",
+    "hard": "Hard",
+    "hardDesc": "All data types and faster game pace",
+    "footer": "JavaScript Learning Tools - © 2023"
+  },
+  "variableMaster": {
+    "title": "VARIABLE MASTER",
+    "subtitle": "Game Teaching JavaScript Variable Types",
+    "selectLevel": "Select Level",
+    "startGame": "START GAME",
+    "backToHome": "BACK TO HOME",
+    "continue": "CONTINUE",
+    "score": "Score",
+    "back": "BACK",
+    "check": "CHECK",
+    "nextLevel": "NEXT LEVEL",
+    "finish": "FINISH",
+    "levelCompleted": "Level Completed!",
+    "congratulations": "Congratulations!",
+    "completedLevel": "Congratulations! You have successfully completed the {{levelName}} level.",
+    "earnedPoints": "Points Earned: +{{points}}",
+    "totalPoints": "Total Score: {{score}}",
+    "stageCompleted": "Stage Completed!",
+    "levels": {
+      "1": {
+        "name": "Variable Declaration",
+        "description": "Drag values to the correct variable types.",
+        "instructions": "CONST: Immutable variables. Must be assigned a value when declared.\nLET: Block-scoped variable. Can be changed later. Can be declared empty.\nVAR: Function-scoped variable. Accessible from anywhere. Can be declared empty."
+      },
+      "2": {
+        "name": "Variable Modification",
+        "description": "Try to modify the variables.",
+        "instructions": "VARIABLE MODIFICATION:\n\nCONST: Cannot be changed after declaration\nLET: Value can be changed after declaration\nVAR: Value can be changed after declaration\n\nTask: Arrange the variables in order and try to change their values!"
+      },
+      "3": {
+        "name": "Scope Towers",
+        "description": "Place variables in areas where they can be accessed.",
+        "instructions": "SCOPE RULES:\n\nVAR: Defined in Green (Global) Area and accessible in ALL AREAS (Green, Blue, Red).\nTask: Place VAR in ALL AREAS (Green, Blue, and Red).\n\nLET: Defined in Blue (Function) Area and accessible in ITS OWN AREA and LOWER AREAS (Blue and Red).\nTask: Place LET in Blue and Red areas.\n\nCONST: Defined in Red (Block) Area and accessible ONLY IN ITS OWN AREA (Red).\nTask: Place CONST only in the Red area.\n\nNote: Place variables not where they are defined, but where they can be ACCESSED!\n\nIMPORTANT: You can use the same variables multiple times. For example, you can drag the VAR variable separately to Green, Blue, and Red areas. Variables are not consumed, you can use them as many times as you want!"
+      }
+    },
+    "dragHints": {
+      "level1": "You can drag values to the relevant variable boxes.\nCONST cannot be left empty, LET and VAR can be left empty.",
+      "level2": "Drag from the \"↔\" icon to order the boxes and edit values with the CHANGE button.",
+      "level3": "Place variables in appropriate scope areas.\nEach variable should be placed in all areas where it can be accessed.\nYou can use the same variable multiple times - variables are not consumed!"
+    },
+    "levelInfo": {
+      "level2": "Arrange variables in order and change their values according to target values. CONST cannot be changed, LET and VAR can be changed.",
+      "targetOrder": "Target Value Order: {{order}}",
+      "targetValues": "Target Values: CONST={{constVal}}, LET={{letVal}}, VAR={{varVal}}"
+    },
+    "scopeInfo": {
+      "normal": "VAR should be dragged to all areas (accessible from all areas). LET should be dragged to both Blue and Red areas (accessible from blue and red areas). CONST should only be dragged to the Red area (only accessible from the red area). The same variables can be used multiple times!",
+      "reversed": "Second Stage: VAR should still be dragged to all areas (accessible from all areas). CONST should be dragged to all areas (accessible from all areas). LET should be dragged to both Blue and Red areas (accessible from blue and red areas). The same variables can be used multiple times!"
+    },
+    "scopeAreas": {
+      "green": "Green Area",
+      "blue": "Blue Area",
+      "red": "Red Area"
+    },
+    "variables": {
+      "newValue": "New Value:",
+      "change": "CHANGE"
+    },
+    "messages": {
+      "constEmpty": "Error! CONST cannot be empty, a value must be assigned. -5 points",
+      "levelComplete": "Great! Level completed! +{{points}} points",
+      "constChanged": "TypeError: Assignment to constant variable",
+      "varChanged": "{{type}} value correctly changed! +10 points",
+      "varChangedWrong": "{{type}} changed! +2 points",
+      "valueError": "Value must be a number between 1-9",
+      "constError": "CONST can only be displayed in the Red Area!",
+      "letError": "LET cannot be displayed in the Green Area! It can only be displayed in Blue and Red Areas.",
+      "letErrorReversed": "In this layout, LET cannot be displayed in the Green Area! It can only be displayed in Blue and Red Areas.",
+      "varPlaced": "{{type}} variable is displayed in the {{scope}} area! +5 points",
+      "secondStage": "Let's try again! This time VAR should be placed in every area, CONST in every area, and LET in both Blue and Red areas.",
+      "secondStageNote": "Note: Place variables in areas where they can be ACCESSED!",
+      "varError": "VAR (5) must be displayed in all areas! (Green, Blue, and Red)",
+      "letErrorScope": "LET (3) must be displayed in both Blue and Red Areas!",
+      "constErrorScope": "CONST (1) must be displayed in the Red Area!",
+      "constErrorScopeReversed": "CONST (1) must be displayed in all areas! (Green, Blue, and Red)",
+      "valuesError": "Some variable values have not reached their target values. Set the values correctly.",
+      "orderError": "You did not create the correct order. Target: {{order}}"
+    },
+    "scopeSummary": {
+      "title": "JavaScript Scope Rules Summary:",
+      "var": "VAR: Function scoped. Accessible from anywhere within the function where it is defined.",
+      "let": "LET: Block scoped. Only accessible from the block where it is defined and sub-blocks.",
+      "const": "CONST: Block scoped (like LET) and its value cannot be changed.",
+      "note": "Note: A variable can be used in all accessible areas from where it is defined. For example, a variable defined in an outer block can also be used in inner blocks.",
+      "exampleTitle": "JavaScript Scope Example (Normal Layout):"
+    }
+  }
+} 
