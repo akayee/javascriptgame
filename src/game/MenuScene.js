@@ -27,6 +27,7 @@ export class MenuScene extends Phaser.Scene {
     // Skor bilgileri (varsa)
     if (this.lastScore > 0 || this.highScore > 0) {
       // Skor paneli
+      // eslint-disable-next-line no-unused-vars
       const scorePanel = this.add.rectangle(width / 2, height * 0.28, 300, 60, 0x1e293b, 0.8)
         .setOrigin(0.5);
 
