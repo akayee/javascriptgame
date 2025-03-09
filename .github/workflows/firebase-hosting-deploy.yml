@@ -27,6 +27,6 @@ jobs:
         run: npm install -g firebase-tools
       
       - name: Deploy to Firebase
-        run: firebase deploy --only hosting --project javascriptgame-5cd65 --token "${{ secrets.FIREBASE_TOKEN }}" --non-interactive
+        run: firebase deploy --only hosting --token "${{ secrets.FIREBASE_TOKEN }}" --non-interactive
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }} 
